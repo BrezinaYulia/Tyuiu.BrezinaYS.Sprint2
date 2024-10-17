@@ -6,7 +6,7 @@ namespace Tyuiu.BrezinaYS.Sprint2.Task3.V1.Lib
         public double Calculate(double x)
         {
             double y = 0;
-            if (x > 0) y = Math.E - 12 * x + Math.Cos(x);
+            if (x > 0) y = Math.Pow(Math.E, x) - 12 * x + Math.Cos(x);
             else if (x == 2) y = x + (15 / x);
             else if ((x > -5) && (x < 3)) y = x + 10 * x - (1 / x);
             else if (x < -5) y = x + 10 * x - (1 / (Math.Pow(x, 3) + 3));
