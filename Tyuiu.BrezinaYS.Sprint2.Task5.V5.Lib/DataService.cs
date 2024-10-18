@@ -27,7 +27,7 @@ namespace Tyuiu.BrezinaYS.Sprint2.Task5.V5.Lib
                     res = "Валет";
                     break;
                 case 12:
-                    res = "Дама";
+                    res = "дама";
                     break;
                 case 13:
                     res = "Король";
