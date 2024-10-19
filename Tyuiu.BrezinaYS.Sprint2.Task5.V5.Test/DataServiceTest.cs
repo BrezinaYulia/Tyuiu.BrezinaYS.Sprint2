@@ -26,7 +26,7 @@ namespace Tyuiu.BrezinaYS.Sprint2.Task5.V5.Test
             Assert.ThrowsException<ArgumentException>(() =>
             {
                 ds.FindCardValue(15);
-            });
+            });Åôû
 
 
 
