@@ -13,7 +13,7 @@ namespace Tyuiu.BrezinaYS.Sprint2.Task6.V15.Test
             Assert.AreEqual("среда", ds.FindDayName(3));
             Assert.AreEqual("четверг", ds.FindDayName(4));
             Assert.AreEqual("пятница", ds.FindDayName(5));
-            Assert.AreEqual("Cуббота", ds.FindDayName(6));
+            Assert.AreEqual("Суббота", ds.FindDayName(6));
             Assert.AreEqual("воскресенье", ds.FindDayName(7));
 
             //Assert.ThrowsException<ArgumentException>(() =>
